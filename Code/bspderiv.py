@@ -33,8 +33,7 @@ def bspderiv(d, c, k):
     for i in range(nc - 1):
         temp = d / (k[i+d+1] - k[i+1])
         dc[0:(mc-1), i] = temp * (c[0:(mc-1), i+1] - c[1:mc, i])
-    dk = np.zeros((1, nk - 2))
-    dk[0: (nk - 2)] = k[1: (nk - 1)]
+    dk = k[1: (nk - 1)]
     return dc, dk
 
 
