@@ -73,7 +73,6 @@ def nrbmak(cp, knots):
         vorder = len(knots[1]) - ncp[2]
         nurbs['Order'] = [uorder, vorder]
     elif len(knots) == 1:   # constructing a curve
-        vorder = None
         nurbs['Order'] = [uorder]
 
     return nurbs
