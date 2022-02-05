@@ -4,7 +4,7 @@ Author: Yanpeng Mei
 
 Python environment: PyCharm
 
-Started on: 28. Jan. 2022(will be done in a month)
+Started on: 28. Jan. 2022(will be done in 1.5 months)
 
 These programs are about my thesis "Path optimization when interpolating in Numerical Controls"
 
