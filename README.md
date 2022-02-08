@@ -11,3 +11,5 @@ These programs are about my thesis "Path optimization when interpolating in Nume
 This program was originally done in Matlab, but now I will rewrite it in Python out of interest. Please see my Matlab version for more information.
 
 In Matlab version, i minimized the curvature of the tool path. This time i will try something new. I will minimize the length of the path.
+
+Please read 'A1_main.py' first
