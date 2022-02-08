@@ -23,7 +23,7 @@ from nrbeval import nrbeval
 
 def nrbplot(nurbs, subd):
     order = nurbs['Order']
-    if (order[0] < 2 and len(order) == 1) or (order[0] < 2 and len(order) == 1 and order[1])< 2:
+    if (order[0] < 2 and len(order) == 1) or (order[0] < 2 and len(order) == 1 and order[1]< 2):
         print('Warning! The plot with order smaller than 2 may not be correct')
     sorc = len(nurbs['Knots'])
     if sorc == 2:  # plot a NURBS surface
