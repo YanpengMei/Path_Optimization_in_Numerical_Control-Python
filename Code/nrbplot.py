@@ -34,7 +34,7 @@ def nrbplot(nurbs, subd):
         ax3.set_xlabel('X')
         ax3.set_ylabel('Y')
         ax3.set_zlabel('Z')
-        plt.show()
+        #plt.show()
 
     elif sorc==1: # plot a NURBS curve
         ut = (list(np.linspace(0, 1, subd)), )
@@ -42,7 +42,7 @@ def nrbplot(nurbs, subd):
         plt.plot(p[0, :], p[1, :])
         plt.xlabel('X')
         plt.ylabel('Y')
-        plt.show()
+        #plt.show()
 
 '''
 # test 1
