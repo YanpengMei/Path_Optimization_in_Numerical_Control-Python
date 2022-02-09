@@ -30,7 +30,7 @@ def nrbplot(nurbs, subd):
         tt = (list(np.linspace(0,1,subd[0])), list(np.linspace(0,1,subd[1])))
         p = nrbeval(nurbs, tt)
         ax3 = plt.axes(projection='3d')
-        ax3.plot_surface(p[0, :, :], p[1, :, :], p[2, :, :],)
+        ax3.plot_surface(p[0, :, :], p[1, :, :], p[2, :, :],cmap='viridis')
         ax3.set_xlabel('X')
         ax3.set_ylabel('Y')
         ax3.set_zlabel('Z')
@@ -39,7 +39,7 @@ def nrbplot(nurbs, subd):
     elif sorc==1: # plot a NURBS curve
         ut = (list(np.linspace(0, 1, subd)), )
         p = nrbeval(nurbs, ut)
-        plt.plot(p[0, :], p[1, :])
+        plt.plot(p[0, :], p[1, :], cmap='viridis')
         plt.xlabel('X')
         plt.ylabel('Y')
         #plt.show()
