@@ -2,11 +2,6 @@
 # Created at : 03.02.2022
 
 '''
-This function was written by me.
-'numpy' should be installed and imported !!!!!!
-'''
-
-'''
 nrbeval:  Evaluate a NURBS at parametric points
 
 Meaning of the input:
