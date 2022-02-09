@@ -2,11 +2,6 @@
 # Created at : 03.02.2022
 
 '''
-This function was written by me.
-'numpy' should be installed and imported !!!!!!
-'''
-
-'''
 nrbmak:  Construct the NURBS dictionary given the control points and the knots
 
 Meaning of the input:
