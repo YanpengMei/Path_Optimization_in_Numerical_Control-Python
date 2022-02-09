@@ -2,11 +2,6 @@
 # Created at : 05.02.2022
 
 '''
-This function was written by me.
-'numpy' and 'matplotlib' should be installed and imported !!!!!!
-'''
-
-'''
 nrbplot:  Plot a surface or a iso-parametric curve(for non-iso--parametric curve, just use the existed function)
 
 Meaning of the input:
