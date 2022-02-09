@@ -2,13 +2,6 @@
 # Created at : 29.01.2022
 
 '''
-This function was originally written in Matlab by Mark Spink in 2000 and modified by Daniel Claxton in 2007 and C. de Falco in 2010.
-I re-write it in python.
-To avoid mistakes, the input and output(Type, Size and Value) of each function will be exactly the same as in Matlab !!!!!!
-'numpy' should be installed and imported !!!!!!
-'''
-
-'''
 bspeval:  Evaluate B-Spline at parametric points
 
 Meaning of the input:
