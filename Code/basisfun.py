@@ -2,13 +2,6 @@
 # Created at : 28.01.2022
 
 '''
-This function was originally written in Matlab by Mark Spink in 2000 and modified by Daniel Claxton in 2007 and Carlo de Falco in 2009.
-I re-write it in python.
-To avoid mistakes, the input and output(Type, Size and Value) of each function will be exactly the same as in Matlab !!!!!!
-'numpy' should be installed and imported !!!!!!
-'''
-
-'''
 basicfun:  Basis function for B-Spline
 
 Meaning of the input:
