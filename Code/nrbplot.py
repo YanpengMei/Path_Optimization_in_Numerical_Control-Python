@@ -40,6 +40,7 @@ def nrbplot(nurbs, subd):
         ut = (list(np.linspace(0, 1, subd)), )
         p = nrbeval(nurbs, ut)
         plt.plot(p[0, :], p[1, :])
+        plt.axis('equal')
         plt.xlabel('X')
         plt.ylabel('Y')
         #plt.show()
