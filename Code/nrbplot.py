@@ -39,7 +39,7 @@ def nrbplot(nurbs, subd):
     elif sorc==1: # plot a NURBS curve
         ut = (list(np.linspace(0, 1, subd)), )
         p = nrbeval(nurbs, ut)
-        plt.plot(p[0, :], p[1, :], cmap='viridis')
+        plt.plot(p[0, :], p[1, :])
         plt.xlabel('X')
         plt.ylabel('Y')
         #plt.show()
@@ -65,6 +65,7 @@ cp_sur[:,:,4] = [ [0.0,  3.0,  5.0,  8.0, 10.0],
 knots = ([0, 0, 0, 1/3, 2/3, 1, 1, 1], [0, 0, 0, 1/3, 2/3, 1, 1, 1])
 srf = nrbmak(cp_sur, knots)
 nrbplot(srf, [50, 25])
+plt.show()
 '''
 '''
 # test 2
@@ -73,4 +74,5 @@ cp_cur = np.asarray([[0.5, 1.5, 4.5, 3.0, 7.5, 6.0, 8.5],
 knot = ([0, 0, 0, 1/4, 1/2, 3/4, 3/4, 1, 1, 1], )
 crv = nrbmak(cp_cur, knot)
 nrbplot(crv, 20)
+plt.show()
 '''
