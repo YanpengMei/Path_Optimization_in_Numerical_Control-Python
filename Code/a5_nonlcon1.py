@@ -3,13 +3,12 @@
 
 '''
 'a5_nonlcon1' is the non-linear constraint for the optimization, when the tolerance band is exactly defined(my method)
-# cp is the control points of the original surface
-# cpVar is the optimization variable
-# path / pathVar are similarly defined
+cp   -   control points of the original surface
+cpVar   -   optimization variable
+path / pathVar   -   are similarly defined
 '''
 
 import pickle
-import numpy as np
 from a3_path import a3_path
 
 
