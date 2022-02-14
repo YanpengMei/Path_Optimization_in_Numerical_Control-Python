@@ -1,5 +1,5 @@
 # Autor: Yanpeng Mei
-# Created at : 13.02.2022
+# Created on : 13.02.2022
 
 '''
 'a8_array2list'    -   convert the form of the control points from numpy.array into a one-dimensional list
