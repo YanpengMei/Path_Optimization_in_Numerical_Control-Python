@@ -1,5 +1,5 @@
 # Autor: Yanpeng Mei
-# Created at : 13.02.2022
+# Created on : 13.02.2022
 
 '''
 'a9_list2array'    -   convert the form of the control points from one-dimensional list into numpy.array
