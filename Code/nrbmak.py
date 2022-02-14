@@ -1,5 +1,5 @@
 # Autor: Yanpeng Mei
-# Created at : 03.02.2022
+# Created on : 03.02.2022
 
 '''
 nrbmak:  Construct the NURBS dictionary given the control points and the knots
