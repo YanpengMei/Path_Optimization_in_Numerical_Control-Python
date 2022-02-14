@@ -1,5 +1,5 @@
 # Autor: Yanpeng Mei
-# Created at : 08.02.2022
+# Created on : 08.02.2022
 
 '''
 This is the main file of my thesis "Path optimization when interpolating in Numerical Controls"
