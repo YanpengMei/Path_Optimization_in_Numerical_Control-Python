@@ -1,5 +1,5 @@
 # Autor: Yanpeng Mei
-# Created at : 28.01.2022
+# Created on : 28.01.2022
 
 '''
 for B-spline: The knot vector always has m+p+2 monotonically increasing knots
