@@ -2,7 +2,7 @@
 # Created on : 28.01.2022
 
 '''
-basicfun:  Basis function for B-Spline
+basicfun: find the knot span index
 
 Meaning of the input:
 n - number of control points - 1
