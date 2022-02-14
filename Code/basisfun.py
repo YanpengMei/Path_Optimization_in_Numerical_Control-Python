@@ -1,5 +1,5 @@
 # Autor: Yanpeng Mei
-# Created at : 28.01.2022
+# Created on : 28.01.2022
 
 '''
 basicfun:  Basis function for B-Spline
