@@ -1,5 +1,5 @@
 # Autor: Yanpeng Mei
-# Created at : 13.02.2022
+# Created on : 13.02.2022
 
 '''
 'a10_tb_r4LTB'    -   find the new tolerance band radius, when the tolerance band is linearly defined(traditional way)
