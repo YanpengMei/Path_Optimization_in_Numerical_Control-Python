@@ -1,5 +1,5 @@
 # Autor: Yanpeng Mei
-# Created at : 29.01.2022
+# Created on : 29.01.2022
 
 '''
 bspeval:  Evaluate B-Spline at parametric points
