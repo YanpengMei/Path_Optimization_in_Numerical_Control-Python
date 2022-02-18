@@ -46,9 +46,10 @@ def basisfun(iv, uv, p, U):
 n = 3
 U = [0 0 0 1/2 1 1 1]
 p = 2
-u = np.linspace (0, 1, 10);  
-s = findspan (n, p, u, U);  
+u = np.linspace (0, 1, 10)  
+s = findspan (n, p, u, U)  
 b = basisfun (s, u, p, U)
+print(b)
 # b should be [ [1.                   0.                   0.        ]
 #                         [0.60493827   0.37037037   0.02469136]
 #                         [0.30864198   0.59259259   0.09876543]
