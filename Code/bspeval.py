@@ -24,11 +24,11 @@ def bspeval(d, c, k, u):
     [mc, nc] = np.shape(c)
     s = findspan(nc - 1, d, u, k)
     b = basisfun(s, u, d, k)
-    temp1 = s - d + 1
+    temp1 = s - d
     p = np.zeros((mc, nu))
     for i in range(d+1):
         temp2 = np.tile(b[:, i].T, (mc, 1))
-        p = p +  temp2* c[:,temp1 + i - 1]
+        p = p +  temp2* c[:,temp1 + i]
     return p
 
 
